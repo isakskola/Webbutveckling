@@ -84,4 +84,9 @@ nav ul a {
     width: 200px;
     height: 250px;
     border-radius: 100px;
+    transition: transform 0.3s ease;
+}
+
+.bilder img:hover {
+    transform:scale(1.2);
 }
