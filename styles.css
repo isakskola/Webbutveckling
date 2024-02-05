@@ -6,6 +6,7 @@ body {
 
 .navul li:hover {
     transform: scale(1.1);
+    text-decoration: underline;
     transition: transform 0.3s ease;
 }
 
