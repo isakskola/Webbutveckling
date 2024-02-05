@@ -43,7 +43,7 @@ h1 {
     border-radius: 100px;
 }
 
-a {
+nav ul a {
     color: rgb(78, 212, 213);
     font-weight: bold;
     border-color: black;
@@ -73,9 +73,10 @@ a {
 
 .bilder {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    width: 500px;
-    max-width: 90%;
+    width: 1000px;
+    max-width: 70%;
     margin: auto;
 }
 
