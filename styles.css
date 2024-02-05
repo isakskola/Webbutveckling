@@ -4,6 +4,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.navul li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 nav {
     border-bottom: 2px rgba(78, 212, 212, 0.532) solid;
 }
@@ -28,7 +33,13 @@ h1 {
     width: 500px;
     max-width: 90%;
     margin: 50px auto 0;
-    background-image: url(bilder/vatten.jpg);
+    background-image: url(bilder/vattenbakgrund.jpg);
+}
+
+.bildruta {
+    color: rgb(78, 123, 213);
+    text-align: center;
+    border-radius: 100px;
 }
 
 a {
@@ -53,7 +64,22 @@ a {
     word-wrap: break-word;
 }
 
-img {
+.om-mig img {
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+}
+
+.bilder {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.bilder img {
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
 }
