@@ -79,9 +79,11 @@ nav ul a {
     margin: auto;
 }
 
+
 .bilder img {
     width: 200px;
-    height: 250px;
+    height: auto;
+    margin: 10px;
     border-radius: 100px;
     transition: transform 0.3s ease;
 }
